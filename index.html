@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Generate, schedule, view and email business reports from datasources using SQL</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style type="text/css">
+      #navbar {
+        background: white !important;
+      }
+
+      .navbar-default {
+        background: white !important;
+      }
+
+      .panel-heading {
+        background: #f4f9fb !important;
+      }
+
+      body {
+        background: white !important;
+        font-family: 'Roboto', sans-serif !important;
+      }
+
+      .jumbotron {
+        background: white !important;
+      }
+
+      .modal {
+        position: fixed;
+        top: 50% !important;
+        left: 50%;
+      }
+
+      .kwery-color {
+        color: #1f3a93;
+      }
+
+      .screenshot {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      .setup {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #509EE3;
+      }
+
+      .white-text {
+        color: white;
+      }
+
+      .marketing-text {
+        color: #FF5722 !important;
+      }
+
+      .navbar-default {
+        border-color: white !important;
+      }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><strong class="kwery-color">Kwery</strong></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://documentation.getkwery.com">Documentation</a></li>
+            <li><a href="https://s3.ap-south-1.amazonaws.com/kwery-download/1.7.2-snapshot/kwery-1.7.2-SNAPSHOT.jar">Get Kwery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-center">
+          Kwery makes it simple and easy to generate, schedule, view and email business reports from datasources using SQL.
+        </h1>
+
+        <br>
+
+        <div class="text-center">
+          <a class="btn btn-primary btn-lg" href="http://documentation.getkwery.com" role="button">Get Started</a>
+        </div>
+      </div>
+      <div>
+        <img class="screenshot" src="reportList.png">
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <p class="text-center">
+          Schedule report generation using GUI or cron expression if your needs are complicated.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p class="text-center">
+          Combine data from multiple datasources in your reports.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p class="text-center">
+          Search and view all your reports in one place, no more foraging emails for old reports.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p class="text-center">
+          Email reports and also get alerts when report generation fails.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="setup text-center">
+      <div class="container">
+        <h1 class="white-text">Set up is a breeze<small class="white-text"> only a single Java jar to run, no dependencies other than Java 8 runtime.</small></h1>
+        <p class="white-text">
+        You are in complete control of where to host and run kwery. Evaluate on your laptop and then set it up on a server
+        for others to use.
+        </p>
+        <p class="white-text">
+        Your data is secure and private with you, no need to expose your entire database to a third party service
+        for reporting.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <p class="text-center text-muted">Works with</p>
+        <div class="text-center">
+          <ul class="list-inline">
+            <li><span class="label label-warning">MySQL</span></li>
+            <li><span class="label label-warning">Postgres</span></li>
+            <li><span class="label label-warning">AWS Redshift</span></li>
+          </ul>
+        </div>
+        <div class="text-center text-muted">
+          <small>More datasources coming soon</small>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="text-center">
+        <h1>Get Started</h1>
+        <a class="btn btn-success btn-lg" href="https://s3.ap-south-1.amazonaws.com/kwery-download/1.7.2-snapshot/kwery-1.7.2-SNAPSHOT.jar" role="button">Download Kwery</a>
+        <a class="btn btn-success btn-lg" href="http://documentation.getkwery.com" role="button">Documentation</a>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <hr>
+
+      <div>
+        <p class="text-muted">
+        If you have questions or custom requirements or just want to say hi, email us at hello@getkwery.com
+        </p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

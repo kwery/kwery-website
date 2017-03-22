@@ -1,0 +1,54 @@
+#navbar {
+    background: white !important;
+}
+
+.navbar-default {
+    background: white !important;
+}
+
+.panel-heading {
+    background: #f4f9fb !important;
+}
+
+body {
+    background: white !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.jumbotron {
+    background: white !important;
+}
+
+.modal {
+    position: fixed;
+    top: 50% !important;
+    left: 50%;
+}
+
+.kwery-color {
+    color: #1f3a93;
+}
+
+.screenshot {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.setup {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #509EE3;
+}
+
+.white-text {
+    color: white;
+}
+
+.marketing-text {
+    color: #FF5722 !important;
+}
+
+.navbar-default {
+    border-color: white !important;
+}
